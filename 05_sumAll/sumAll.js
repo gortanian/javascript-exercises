@@ -22,7 +22,7 @@ const sumAll = function(int1, int2) {
     let sum = 0;
 
     // for numbers between int1 and int2, inclusive, add them to the sum. 
-    for (i = int1; i <= int2; i++) {
+    for (let i = int1; i <= int2; i++) {
         sum += i;
     }
 
